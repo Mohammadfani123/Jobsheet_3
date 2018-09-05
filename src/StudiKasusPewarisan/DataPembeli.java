@@ -14,7 +14,8 @@ public class DataPembeli extends DataBarang {
     private String idpembeli,namapembeli,alamat,telp;
     
     
-    public DataPembeli(String idpembeli,String namapembeli,String alamat,String telp,String idbarang,String namabarang1,String namabarang2,String merk,String kasir){
+    public DataPembeli(String idpembeli,String namapembeli,String alamat,String telp,
+                        String idbarang,String namabarang1,String namabarang2,String merk,String kasir){
         super(kasir,idbarang,namabarang1,namabarang2,merk);
         this.idpembeli = idpembeli;
         this.namapembeli = namapembeli;
